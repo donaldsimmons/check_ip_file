@@ -1,17 +1,18 @@
 #!/usr/bin/php
-
 <?php
 
 # Nagios Monitor for IP List Gist
 # Version 1.0
 # Author: Trey Simmons
+# Latest Version Tested: 1.0
+# Lowest Version Tested: 1.0
 
-define(STATE_OK, 0);
-define(STATE_WARNING, 1);
-define(STATE_CRITICAL, 2);
-define(STATE_UNKNOWN, 3);
+define('STATE_OK', 0);
+define('STATE_WARNING', 1);
+define('STATE_CRITICAL', 2);
+define('STATE_UNKNOWN', 3);
 
-define(VERSION_FILE, "previous_version");
+define('VERSION_FILE', "previous_version");
 
 # Set up cURL call
 $handle = curl_init("https://gist.github.com/ervinb/ecab6ca35ec87ed0cadf");
