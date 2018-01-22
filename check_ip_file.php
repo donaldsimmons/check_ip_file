@@ -5,7 +5,7 @@
 # Version 1.0
 # Author: Trey Simmons
 # Latest Version Tested: 1.0
-# Lowest Version Tested: 1.0
+# Lowest PHP Version Tested: 5.3.3
 
 define('STATE_OK', 0);
 define('STATE_WARNING', 1);
